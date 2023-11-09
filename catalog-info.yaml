@@ -19,4 +19,4 @@ spec:
   dependsOn:
     - resource:freebird/rds-mysql
   providesApis:
-    - freebird-api
+    - free-bird-api
