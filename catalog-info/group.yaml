@@ -11,5 +11,5 @@ spec:
     email: infrastructure@example.com
     picture: https://example.com/groups/bu-infrastructure.jpeg
   parent: dev
-  children: [free-bird, other]
-  members: [jdoe]
+  children: []
+  members: []
