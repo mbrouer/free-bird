@@ -12,6 +12,6 @@ metadata:
     backstage.io/techdocs-ref: dir:./techdocs
     #lighthouse.com/website-url: https://backstage.io
 spec:
-  type: library
+  type: service
   owner: mbrouer
   lifecycle: experimental
