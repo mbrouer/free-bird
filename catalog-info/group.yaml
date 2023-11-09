@@ -16,3 +16,22 @@ spec:
   parent: dev
   children: []
   members: []
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: mbrouer1
+  namespace: default
+  description: the owner group
+spec:
+  type: business-unit
+  owner: mbrouer1
+  system: the-free-bird-system
+  lifecycle: production
+  profile:
+    displayName: Infrastructure
+    email: infrastructure@example.com
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: dev
+  children: []
+  members: []
