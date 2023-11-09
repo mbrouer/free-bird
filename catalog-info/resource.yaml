@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: free-bird-db
+  namespace: free-bird
+  description: |
+    This is the description of the catalog
+spec:
+  type: database
+  owner: mbrouer
+  system: the-free-bird-system
+  lifecycle: production

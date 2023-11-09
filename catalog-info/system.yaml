@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: System
+metadata:
+  name: the-freebird-system
+  description: System for the free birds
+spec:
+  type: system
+  owner: mbrouer
+  system: the-free-bird-system
+  lifecycle: production

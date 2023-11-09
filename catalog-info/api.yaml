@@ -1,0 +1,25 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: free-bird-api
+  namespace: free-bird
+  description: |
+    This is the description of the api
+spec:
+  type: api
+  owner: mbrouer
+  system: the-free-bird-system
+  lifecycle: production
+  definition: |
+    openapi: "3.0.0"
+    info:
+      version: 1.0.0
+      title: Free Bird API
+      license:
+        name: MIT
+    servers:
+      - url: http://freebird/v1
+    paths:
+      /birds:
+        get:
+          summary: List all birds

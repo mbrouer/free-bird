@@ -1,0 +1,23 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: free-bird-catalog
+  namespace: free-bird
+  description: |
+    This is the description of the catalog
+  links:
+    - title: Website
+      url: http://backstage.io
+  annotations:
+    github.com/project-slug: mbrouer/free-bird
+    backstage.io/techdocs-ref: dir:./techdocs
+    #lighthouse.com/website-url: https://backstage.io
+spec:
+  type: catalog
+  owner: mbrouer
+  system: the-free-bird-system
+  lifecycle: production
+  dependsOn:
+    - resource:free-bird-db
+  providesApis:
+    - free-bird-api
