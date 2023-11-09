@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: free-bird
+  description: |
+    This is the description
+  links:
+    - title: Website
+      url: http://backstage.io
+  annotations:
+    github.com/project-slug: mbrouer/free-bird
+    backstage.io/techdocs-ref: dir:./techdocs
+    #lighthouse.com/website-url: https://backstage.io
+spec:
+  type: library
+  owner: mbrouer
+  lifecycle: experimental
