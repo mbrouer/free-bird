@@ -2,6 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: System
 metadata:
   name: the-freebird-system
+  namespace: free-bird
   description: System for the free birds
 spec:
   type: system
