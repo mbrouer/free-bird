@@ -1,23 +1,23 @@
 apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
-  name: artist-api
+  name: free-bird-api
   description: Retrieve artist details
 spec:
   type: openapi
   lifecycle: production
-  owner: artist-relations-team
-  system: artist-engagement-portal
+  owner: mbrouer
+  system: demo
   definition: |
     openapi: "3.0.0"
     info:
       version: 1.0.0
-      title: Artist API
+      title: Free Bird API
       license:
         name: MIT
     servers:
-      - url: http://artist.spotify.net/v1
+      - url: http://freebird/v1
     paths:
-      /artists:
+      /birds:
         get:
-          summary: List all artists
+          summary: List all birds
