@@ -1,18 +1,13 @@
 apiVersion: backstage.io/v1alpha1
 kind: Group
 metadata:
-  name: mbrouer
-  namespace: free-bird
-  description: the owner group
+  name: team-a
+  description: Team A
 spec:
-  type: business-unit
-  owner: mbrouer
-  system: the-free-bird-system
-  lifecycle: production
+  type: team
   profile:
-    displayName: Infrastructure
-    email: infrastructure@example.com
-    picture: https://example.com/groups/bu-infrastructure.jpeg
-  parent: dev
+    # Intentional no displayName for testing
+    email: team-a@example.com
+    picture: https://avatars.dicebear.com/api/identicon/team-a@example.com.svg?background=%23fff&margin=25
+  parent: backstage
   children: []
-  members: []
