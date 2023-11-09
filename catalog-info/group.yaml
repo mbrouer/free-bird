@@ -9,7 +9,7 @@ spec:
   profile:
     displayName: Infrastructure
     email: infrastructure@example.com
-    picture: https://example.com/groups/bu-infrastructure.jpeg
+    #picture: https://example.com/groups/bu-infrastructure.jpeg
   #parent: dev
   children: []
   members: []
