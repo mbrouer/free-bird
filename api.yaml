@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: API
 metadata:
   name: free-bird-api
-  description: Retrieve artist details
+  description: Retrieve bird info
 spec:
   type: openapi
   lifecycle: production
