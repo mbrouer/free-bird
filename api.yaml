@@ -3,6 +3,7 @@ kind: API
 metadata:
   name: free-bird-api
   description: Retrieve bird info
+  namespace: free-bird
 spec:
   type: openapi
   lifecycle: production
