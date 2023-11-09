@@ -6,10 +6,13 @@ metadata:
   description: the owner group
 spec:
   type: business-unit
+  owner: mbrouer
+  system: the-free-bird-system
+  lifecycle: production
   profile:
     displayName: Infrastructure
     email: infrastructure@example.com
-    #picture: https://example.com/groups/bu-infrastructure.jpeg
-  #parent: dev
+    picture: https://example.com/groups/bu-infrastructure.jpeg
+  parent: dev
   children: []
   members: []
