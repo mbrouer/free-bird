@@ -15,3 +15,8 @@ spec:
   type: service
   owner: mbrouer
   lifecycle: experimental
+  system: the-freebird-system
+  dependsOn:
+    - resource:freebird/rds-mysql
+  providesApis:
+    - freebird-api
