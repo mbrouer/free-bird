@@ -1,0 +1,11 @@
+# You can pass the custom site name here
+site_name: 'free-bird docs'
+
+nav:
+  - Home: 'index.md'
+  - 'User Guide':
+      - 'Service Info': 'service.md'
+      - 'Configuration': 'configuration.md'
+  - About:
+      - 'License': 'license.md'
+      - 'Change log': 'CHANGELOG.md'
