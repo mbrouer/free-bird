@@ -2,7 +2,7 @@
 site_name: 'free-bird docs'
 
 nav:
-  - Home: 'index.md'
+  - Home: 'index.mdd'
   - 'User Guide':
       - 'Service Info': 'service.md'
       - 'Configuration': 'configuration.md'
