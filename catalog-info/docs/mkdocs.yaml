@@ -1,6 +1,11 @@
 # You can pass the custom site name here
-site_name: 'example-docs'
+site_name: 'free-bird docs'
 
 nav:
-  # relative reference to your Markdown file and an optional title
-  - Home: index.md
+  - Home: 'index.md'
+  - 'User Guide':
+      - 'Service Info': 'service.md'
+      - 'Configuration': 'configuration.md'
+  - About:
+      - 'License': 'license.md'
+      - 'Change log': 'CHANGELOG.md'
